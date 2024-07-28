@@ -1,4 +1,7 @@
 pub mod finder {
+    use crate::get_extension;
+    use crate::read::read::read_lines;
+
     pub fn find_tokens(p: &String) -> Result<Vec<String>, std::io::Error> {
         use regex::Regex;
         use std::fs::{metadata, read_dir};
